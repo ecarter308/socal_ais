@@ -28,7 +28,7 @@ AIS and VMS Processing Steps for Southern California
 ### AIS
 - Download AIS tracks that Brian created for all west coast EEZ
 - Select all AIS lines at intersect the study area/grid (01 Combine Intersecting AIS Features.py)
-- Use the [Vessel Type Codes (2018)] file to classify the AIS codes into ship types in Isaac’s processing script (https://coast.noaa.gov/data/marinecadastre/ais/VesselTypeCodes2018.pdf)
+- Use the [Vessel Type Codes (2018)](https://coast.noaa.gov/data/marinecadastre/ais/VesselTypeCodes2018.pdf) file to classify the AIS codes into ship types in Isaac’s processing script
 - Use Isaac’s script to count the number of intersections for each vessel type per BOEM aliquot grid cell per year (02 ais lines count)
 - Project grid and VMS lines to UTM Zone 11N for the west coast
 - Count vessel transits per cell (end points inside and end points on the edges of each cell divided by 2)
