@@ -4,7 +4,7 @@ AIS and VMS Processing Steps for Southern California
 11/22/2024 – Eliza Carter
 
 
-VMS
+## VMS
 Data received from OLE
 Cleaned raw data files so they would be correctly read as CSVs into R
 Some lines were not reading geometry correctly
@@ -25,7 +25,7 @@ Make a count field for each declaration code for the unique vessel doc numbers p
 Export to a shapefile
 Ran Isaac’s script on the shapefile with all transits and divided by 9 for a yearly average
 
-AIS
+## AIS
 Download AIS tracks that Brian created for all west coast EEZ
 Select all AIS lines at intersect the study area/grid (01 Combine Intersecting AIS Features.py)
 Use the Vessel Type Codes (2018) file to classify the AIS codes into ship types in Isaac’s processing script (https://coast.noaa.gov/data/marinecadastre/ais/VesselTypeCodes2018.pdf)
